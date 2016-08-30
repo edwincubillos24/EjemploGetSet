@@ -18,7 +18,9 @@ public class EjemploGetSet {
      */
     public static void main(String[] args) {
         Scanner lector = new Scanner (System.in);
-        Persona person = new Persona();
+       
+         Persona person = new Persona();
+        // Persona person = new Persona("Edwin",33); Opcion2 con envio
         
         System.out.println("Digite nombre: ");
         person.setNombre(lector.next());
